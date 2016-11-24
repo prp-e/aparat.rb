@@ -10,4 +10,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This method returns all categories on aparat.com websitr
+ def self.categories
+  uri = URI.parse("http://aparat.com/etc/api/categories")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
