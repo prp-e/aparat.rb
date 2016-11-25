@@ -16,4 +16,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This method retuens all videos in "vitrin"
+ def self.vitrin
+  uri = URI.parse("http://aparat.com/etc/api/vitrinVideos")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
