@@ -16,3 +16,11 @@ By using this :
 Aparat.categories
 ```
 You'll see all categories of aparat.com 
+
+### vitrin
+By using this :
+
+```ruby
+Aparat.vitrin
+```
+You'll see all "vitrin" videos.
