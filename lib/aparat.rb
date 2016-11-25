@@ -28,4 +28,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This method will return all most viewed videos
+ def self.mostViewed
+  uri = URI.parse("http://aparat.com/etc/api/mostViewedVideos")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
