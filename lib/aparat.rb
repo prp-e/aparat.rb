@@ -22,4 +22,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This will shows videos of a category
+ def self.categoryVideos
+  uri = URI.parse("http://aparat.com/etc/api/categoryvideos")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
