@@ -24,3 +24,11 @@ By using this :
 Aparat.vitrin
 ```
 You'll see all "vitrin" videos.
+
+### categoryVideos 
+
+This will show all videos of all categories :
+
+```
+Aparat.categroyVideos
+```
