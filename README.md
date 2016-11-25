@@ -32,3 +32,10 @@ This will show all videos of all categories :
 ```
 Aparat.categroyVideos
 ```
+### mostViewed
+
+This will return all most viewed videos :
+
+```
+Aparat.mostViewed
+```
