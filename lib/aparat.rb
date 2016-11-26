@@ -34,4 +34,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This method will return last videos uploaded on aparat
+ def self.lastVideos
+  uri = URI.parse("http://aparat.com/etc/api/lastvideos")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
