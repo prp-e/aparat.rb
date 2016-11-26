@@ -40,4 +40,10 @@ class Aparat
   response = Net::HTTP.get_response(uri)
   return JSON.parse(response.body)
  end
+ #This will return official channels on aparat
+ def self.official 
+  uri = URI.parse("http://aparat.com/etc/api/official")
+  response = Net::HTTP.get_response(uri)
+  return JSON.parse(response.body)
+ end
 end
