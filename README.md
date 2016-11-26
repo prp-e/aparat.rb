@@ -55,3 +55,10 @@ This will return all official channels (businesses, celebrities, etc.)
 Aparat.official
 ```
 
+### videoRecom
+This will return recommendation of similar videos
+
+```ruby
+Aparat.videoRecom(hash)
+```
+
