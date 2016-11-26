@@ -48,3 +48,10 @@ This will return last videos uploaded on aparat :
 Aparat.lastVideos
 ```
 
+### official 
+This will return all official channels (businesses, celebrities, etc.) 
+
+```ruby 
+Aparat.official
+```
+
