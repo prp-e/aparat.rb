@@ -29,13 +29,22 @@ You'll see all "vitrin" videos.
 
 This will show all videos of all categories :
 
-```
+```ruby
 Aparat.categroyVideos
 ```
 ### mostViewed
 
 This will return all most viewed videos :
 
-```
+```ruby
 Aparat.mostViewed
 ```
+
+### lastVideos
+
+This will return last videos uploaded on aparat :
+
+```ruby
+Aparat.lastVideos
+```
+
