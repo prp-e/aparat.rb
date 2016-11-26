@@ -1,6 +1,13 @@
 # Aparat Ruby Gem 
 I wrote this according to [aparat API methods](http://aparat.com/api)
 
+## How to use? 
+Just add this line in your `Gemfile` :
+
+```ruby
+gem 'aparat', :git => 'https://github.com/prp-e/aparat.rb'
+```
+
 ## Methods
 ### video
 By using this :
